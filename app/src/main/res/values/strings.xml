@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CustomView</string>
+    <string name="step_hint_format">Сейчас ход игрока: %d</string>
 </resources>

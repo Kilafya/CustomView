@@ -21,6 +21,9 @@ data class TicTacToeField(
     fun setCell(row: Int, column: Int, value: Cell) {
         if (isCurrentPoint(row, column)) {
             cells[row][column] = value
+            listeners.forEach {
+                it.invoke(this)
+            }
         } else {
             throw IllegalArgumentException("Going beyond borders")
         }

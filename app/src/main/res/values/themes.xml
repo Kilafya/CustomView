@@ -12,5 +12,13 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <item name="ticTacAttrStyle">@style/DefaultTicTacToeStyle</item>
+    </style>
+
+    <style name="DefaultTicTacToeStyle">
+        <item name="player1Color">#AF0000</item>
+        <item name="player2Color">#00AF00</item>
+        <item name="gridColor">#232323</item>
     </style>
 </resources>
